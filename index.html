@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hotel Marret</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/Hotel-Project/css/body.css" />
+  </head>
+  <body class="vh-100">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand fs-4" href="#">Hotel Mirrage</a>
+
+        <!-- Button -->
+
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Sidebar -->
+        <div
+          class="sidebar offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header text-white border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white shadow-none"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <!-- Side bar body -->
+          <div class="offcanvas-body d-flex flex-lg-row flex-column p-4">
+            <ul
+              class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3"
+            >
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#secondSection">About</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#forthSection">Services</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#fifthSection">Contact</a>
+              </li>
+            </ul>
+            <div class="d-flex justify-content-center">
+              <button
+                type="button"
+                class="btn btn-outline-light"
+                style="border-radius: 0"
+              >
+                <a
+                  href="#thirdSection"
+                  style="text-decoration: none; color: inherit"
+                  >Browse Rooms</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    
+    <main>
+
+      <!-- first section -->
+      <section
+        id="firstSection"
+        class="w-100 vh-100 d-flex flex-column justify-content-center align-items-center text-white fs-1"
+      >
+        <h1 style="font-size: 3.5rem" class="w-75 text-center">
+          Indulge in luxurious comfort within your room.
+        </h1>
+        <h1 style="font-size: 1.2rem" class="w-75 text-center">
+          So that we can achieve minimal disturbace,who amoung us does not
+          engage in the laborious tasks unles it is necessary, and undertakes
+          them with utmost care, in pursuit of pleasure?
+        </h1>
+        <button
+          type="button"
+          class="btn btn-outline-light m-5"
+          style="border-radius: 0"
+        >
+          <a href="#thirdSection" style="text-decoration: none; color: inherit"
+            >Browse Rooms</a
+          >
+        </button>
+      </section>
+
+      <!-- second section -->
+      <section id="secondSection" class="w-100 d-flex flex-column">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <h1>About Us</h1>
+              <p class="me-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam quod, voluptates, quae, quos quia quibusdam quidem
+                voluptatum doloremque quas nemo doloribus. Quisquam quod,
+                voluptates, quae, quos quia quibusdam quidem voluptatum
+                doloremque quas nemo doloribus.
+              </p>
+            </div>
+            <div class="col-12 col-md-6 mt-md-0 mt-5">
+              <img
+                src="/Hotel-Project/images/wall9.jpg"
+                alt="about-us"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- thired section -->
+      <section class="d-flex flex-column align-items-center">
+        <h1 class="m-5 w-50 text-center">
+          Indulge in our cozy rooms with family.
+        </h1>
+
+        <div id="thirdSection" class="container">
+          <div class="row gx-0">
+            <div class="col-12 col-sm-6">
+              <img src="/Hotel-Project/images/bedroom5.jpg" alt="img-1" class="img-fluid" />
+            </div>
+            <div class="col-12 col-sm-6">
+              <img src="/Hotel-Project/images/bedroom2.jpg" alt="img-2" class="img-fluid" />
+            </div>
+          </div>
+          <div class="row gx-0">
+            <div class="col-12 col-sm-6">
+              <img src="/Hotel-Project/images/bedroom3.jpg" alt="img-3" class="img-fluid" />
+            </div>
+            <div class="col-12 col-sm-6">
+              <img src="/Hotel-Project/images/bedroom4.jpg" alt="img-4" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+
+        <button
+          type="button"
+          class="btn btn-outline-secondary p-3 m-5"
+          style="border-radius: 0"
+        >
+          <a
+            href="/Hotel-Project/pages/gallery.html"
+            style="text-decoration: none; color: inherit"
+          >
+            Image Gallery</a
+          >
+        </button>
+      </section>
+
+      <section>
+        <div class="container-fluid pb-5" data-wow-delay="0.1s">
+          <div class="container">
+            <div class="bg-white shadow" style="padding: 35px">
+              <div class="row g-2">
+                <div class="col-md-10">
+                  <div class="row g-2">
+                    <div class="col-md-3">
+                      <div class="date" id="date1" data-target-input="nearest">
+                        <input
+                          type="text"
+                          class="form-control datetimepicker-input"
+                          placeholder="Check in"
+                          data-target="#date1"
+                          data-toggle="datetimepicker"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="date" id="date2" data-target-input="nearest">
+                        <input
+                          type="text"
+                          class="form-control datetimepicker-input"
+                          placeholder="Check out"
+                          data-target="#date2"
+                          data-toggle="datetimepicker"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <select class="form-select">
+                        <option selected>Adult</option>
+                        <option value="1">Adult 1</option>
+                        <option value="2">Adult 2</option>
+                        <option value="3">Adult 3</option>
+                      </select>
+                    </div>
+                    <div class="col-md-3">
+                      <select class="form-select">
+                        <option selected>Child</option>
+                        <option value="1">Child 1</option>
+                        <option value="2">Child 2</option>
+                        <option value="3">Child 3</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <button
+                    class="btn btn-primary w-100"
+                    style="border-radius: 0"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="w-100 d-flex flex-column align-content-center text-white p-5"
+        style="
+          background-image: linear-gradient(
+              rgba(0, 0, 0, 0.5),
+              rgba(0, 0, 0, 0.5)
+            ),
+            url('/Hotel-Project/images/wall18.jpg');
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <h1 class="w-75">
+                Savor the present, indulge in our rejuvenating spa services.
+              </h1>
+            </div>
+            <div class="col-12 col-md-6 mt-md-0 mt-5">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed
+                corporis dignissimos voluptas id quaerat iure dolores qui odio
+                labore nulla minima, facere similique placeat? Sed odit modi
+                consectetur temporibus vitae incidunt maxime aperiam veniam!
+                Animi dolorum unde illo sequi possimus praesentium, maxime ipsam
+                nihil, quibusdam, suscipit quasi distinctio nemo voluptatem!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="forthSection">
+        <h1 class="text-center mt-5">Service</h1>
+        <h6 class="text-center mb-5">Dine & Relax</h6>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 align-content-center">
+              <h6>DINING</h6>
+              <h1>Restrurent</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                debitis deleniti rerum numquam libero, ipsa autem dolore
+                deserunt dolores saepe necessitatibus aut. Ratione accusamus nam
+                tempore sapiente ipsum, ab error.
+              </p>
+            </div>
+
+            <div class="col-12 col-md-6 mt-md-0 mt-5">
+              <img
+                src="/Hotel-Project/images/resturant2.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="container mt-3">
+          <div class="row">
+            <div class="col-12 col-md-6 align-content-center">
+              <h6>RELAX</h6>
+              <h1>Spa & Wellness</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                debitis deleniti rerum numquam libero, ipsa autem dolore
+                deserunt dolores saepe necessitatibus aut. Ratione accusamus nam
+                tempore sapiente ipsum, ab error.
+              </p>
+            </div>
+
+            <div class="col-12 col-md-6 mt-md-0 mt-5">
+              <img src="/Hotel-Project/images/wall4.jpg" alt="resturent" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+
+        <div class="container mt-3">
+          <div class="row">
+            <div class="col-12 col-md-6 align-content-center">
+              <h6>DRINKS</h6>
+              <h1>Roof Top Bar</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                debitis deleniti rerum numquam libero, ipsa autem dolore
+                deserunt dolores saepe necessitatibus aut. Ratione accusamus nam
+                tempore sapiente ipsum, ab error.
+              </p>
+            </div>
+
+            <div class="col-12 col-md-6 mt-md-0 mt-5">
+              <img src="/Hotel-Project/images/bar2.jpg" alt="resturent" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="w-100 d-flex justify-content-center text-white p-5 mt-5"
+        style="
+          background-image: linear-gradient(
+              rgba(0, 0, 0, 0.5),
+              rgba(0, 0, 0, 0.5)
+            ),
+            url('/Hotel-Project/images/wall1.jpg');
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <div class="row w-75">
+          <div class="col-12 col-md-6 align-content-center">
+            <img
+              src="/Hotel-Project/images/review.png"
+              alt="review"
+              class="img-fluid"
+              width="100px"
+            />
+            <h3>The stff Service is impeccable</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
+              modi dolorem expedita dolorum commodi perspiciatis sapiente fuga
+              excepturi earum, ut ad doloribus, dignissimos inventore quos illo
+              accusantium eligendi est facilis!
+            </p>
+            <div class="d-flex align-items-center container">
+              <img
+                src="/Hotel-Project/images/customer09.jpg"
+                alt="review"
+                width="60px"
+                height="60px"
+                style="border-radius: 30px"
+              />
+              <h6 class="ms-4">Himsara Subasinghe</h6>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 align-content-center">
+            <img
+              src="/Hotel-Project/images/review.png"
+              alt="review"
+              class="img-fluid"
+              width="100px"
+            />
+            <h3>The stff Service is impeccable</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
+              modi dolorem expedita dolorum commodi perspiciatis sapiente fuga
+              excepturi earum, ut ad doloribus, dignissimos inventore quos illo
+              accusantium eligendi est facilis!
+            </p>
+            <div class="d-flex align-items-center container">
+              <img
+                src="/Hotel-Project/images/customer05.jpg"
+                alt="review"
+                width="60px"
+                height="60px"
+                style="border-radius: 30px"
+              />
+              <h6 class="ms-4">Charitha Chiranjeewa</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="d-flex flex-column align-items-center mb-5">
+        <h1 class="m-5">Weekly Events</h1>
+
+        <div class="container">
+          <div class="row gx-0 gy-3 gy-sm-0">
+            <div class="col-12 col-sm-6 position-relative">
+              <img src="/Hotel-Project/images/wall3.jpg" alt="img-1" class="img-fluid" />
+              <div
+                class="position-absolute bottom-0 start-0 p-3 text-white"
+                style="background: rgba(0, 0, 0, 0.5)"
+              >
+                Explore nature & resort
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 position-relative">
+              <img src="/Hotel-Project/images/wall5.jpeg" alt="img-2" class="img-fluid" />
+              <div
+                class="position-absolute bottom-0 start-0 p-3 text-white"
+                style="background: rgba(0, 0, 0, 0.5)"
+              >
+                Wellness lake & comfort
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+      </section>
+
+      <footer
+        class="section footer-section p-5"
+        style="background: #1a1a1a; color: #6c757d"
+      >
+        <div id="fifthSection" class="container">
+          <div class="row mb-4">
+            <div class="col-md-3 mb-5">
+              <ul class="list-unstyled link">
+                <li>
+                  <a href="#" style="text-decoration: none; color: #6c757d"
+                    >About Us</a
+                  >
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none; color: #6c757d"
+                    >Terms &amp; Conditions</a
+                  >
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none; color: #6c757d"
+                    >Privacy Policy</a
+                  >
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none; color: #6c757d"
+                    >Rooms</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-5">
+              <ul
+                class="link"
+                style="list-style: none; text-decoration: none; color: #6c757d"
+              >
+                <li>
+                  <a href="#" style="text-decoration: none; color: #6c757d"
+                    >The Rooms &amp; Suites</a
+                  >
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none; color: #6c757d"
+                    >About Us</a
+                  >
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none; color: #6c757d"
+                    >Contact Us</a
+                  >
+                </li>
+                <li>
+                  <a href="#" style="text-decoration: none; color: #6c757d"
+                    >Restaurant</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-5 pr-md-5 contact-info">
+              <p>
+                <span class="d-block"
+                  ><span class="ion-ios-location h5 mr-3 text-primary"></span
+                  >Address:</span
+                >
+                <span>
+                  No.42, Arena City <br />
+                  Bambalapitiya Colombo</span
+                >
+              </p>
+              <p>
+                <span class="d-block"
+                  ><span class="ion-ios-telephone h5 mr-3 text-primary"></span
+                  >Phone:</span
+                >
+                <span> (+94) 75 209 9622</span>
+              </p>
+              <p>
+                <span class="d-block"
+                  ><span class="ion-ios-email h5 mr-3 text-primary"></span
+                  >Email:</span
+                >
+                <span> nadunsankalpadesilva27@gmail.com</span>
+              </p>
+            </div>
+            <div class="col-md-3 mb-5">
+              <p>Sign up for our newsletter</p>
+              <form action="#" class="footer-newsletter">
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email..."
+                  />
+                  <button type="submit" class="btn">
+                    <span class="fa fa-paper-plane"></span>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <p class="col-md-6 text-left">
+              All Right Reserved. Designed and Developed by Nadun Sankalpa ❤️
+            </p>
+
+            <p class="col-md-6 text-right social">
+              <a href="#"><span class="fa fa-tripadvisor"></span></a>
+              <a href="#"><span class="fa fa-facebook"></span></a>
+              <a href="#"><span class="fa fa-twitter"></span></a>
+              <a href="#"><span class="fa fa-linkedin"></span></a>
+              <a href="#"><span class="fa fa-vimeo"></span></a>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+ 
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
